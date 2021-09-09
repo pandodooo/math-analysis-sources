@@ -1,0 +1,166 @@
+
+/* Основное содержание */
+
+body {
+    font-family: 'Calibri', sans-serif;
+    background: #ffa256;
+    background: -webkit-linear-gradient(#ffa256, #753280);
+    background:    -moz-linear-gradient(#ffa256, #753280);
+    background:         linear-gradient(#ffa256, #753280);
+    background-attachment: fixed;
+    color: white;
+    position: relative;
+    float: right;
+    right: 50%;
+}
+
+.navbar {
+   position: fixed;
+   z-index: 1;
+   width: 100%;
+   top: 0px;
+   right: 0px;
+   left: 0px;
+   height: 50px;
+   color: white;
+   background-color: #ffa256;
+}
+
+.navbar-brand {
+    color: white;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.dropdown-menu {
+    padding: 0 5px 0 5px;
+    margin-left: 70%;
+}
+
+.all-categories-wrapper {
+    position: relative;
+    float: left;
+    left: 50%;
+    margin-top: 60px;
+    
+}
+
+.category-title {
+    font-style: normal;
+    color: white;
+    font-size: 37px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+}
+
+.category-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    font-size: 25px;
+    padding-left: 7px;
+}
+
+.break-line {
+    display: none;
+}
+
+/* Внешний вид карточек */
+
+.card {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.card-title {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.btn-secondary {
+    background-color: orange;
+    color: black;
+    font-size: 25px;
+}
+
+.btn-books {
+    background: rgb(255, 142, 76);
+}
+
+.btn-materials {
+    background: rgb(252, 81, 109);
+}
+
+.btn-social {
+    background: violet;
+}
+
+.btn-end {
+    background-color: white;
+}
+
+/* Содержание карточек */
+
+.modal-content {
+    color: black;
+}
+
+.modal-title {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 28px;
+}
+
+.card-inner-block {
+    margin-bottom: 30px;
+}
+
+.card-inner-title {
+    font-style: normal;
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 20px 0 3px 0;
+}
+
+.card-inner-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: black;
+}
+
+.card-inner-link {
+    color: rgb(71, 71, 71);
+}
+
+.card-inner-link-books {
+    color: rgb(71, 71, 71);
+}
+
+.card-inner-link-social {
+    color: rgb(71, 71, 71);
+}
+
+.card-inner-list {
+    padding: 0 0 0 15px;
+}
+
+.card-inner-item {
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+
+.card-inner-item-books {
+    color: rgb(71, 71, 71);
+}
+
+.img-fluid {
+    padding-top: 2.5px;
+    padding-left: 2px;
+}

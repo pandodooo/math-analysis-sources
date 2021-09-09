@@ -1,0 +1,309 @@
+@media only screen and (max-width: 992px) {
+    
+    /* Основное содержание */
+
+body {
+    font-family: 'Calibri', sans-serif;
+    background: #ffa256;
+    background: -webkit-linear-gradient(#ffa256, #753280);
+    background:    -moz-linear-gradient(#ffa256, #753280);
+    background:         linear-gradient(#ffa256, #753280);
+    background-attachment: fixed;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbar {
+   position: fixed;
+   z-index: 1;
+   width: 100%;
+   top: 0px;
+   right: 0px;
+   left: 0px;
+   height: 50px;
+   color: white;
+   background-color: #ffa256;
+}
+
+
+.navbar-brand {
+    color: white;
+}
+
+.form-control {
+    background-color: #ffeed4;
+}
+
+.category-title {
+    font-style: normal;
+    margin: 15px 0 0 25px;
+    color: white;
+}
+
+.category-title-first {
+    margin-top: 60px;
+}
+
+.category-block {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.footer {
+    margin: 0 0 10px 25px;
+}
+
+/* Внешний вид карточек */
+
+.card {
+    margin: 15px 10px 0 10px;
+}
+
+.card-title {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+.btn-secondary {
+    background-color: orange;
+    color: black;
+}
+
+.btn-books {
+    background: rgb(255, 142, 76);
+}
+
+.btn-materials {
+    background: rgb(252, 81, 109);
+}
+
+.btn-social {
+    background: violet;
+}
+
+.btn-end {
+    background-color: white;
+}
+
+/* Содержание карточек */
+
+.modal-content {
+    color: black;
+}
+
+.modal-title {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.card-inner-block {
+    margin-bottom: 30px;
+}
+
+.card-inner-title {
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 20px 0 3px 0;
+}
+
+.card-inner-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+.card-inner-link {
+    color: rgb(71, 71, 71);
+}
+
+.card-inner-link-books {
+    color: rgb(71, 71, 71);
+}
+
+.card-inner-link-social {
+    color: rgb(71, 71, 71);
+}
+
+.card-inner-list {
+    padding: 0 0 0 15px;
+}
+
+.card-inner-item {
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+
+.card-inner-item-books {
+    color: rgb(71, 71, 71);
+}
+
+.img-fluid {
+    padding-top: 2.5px;
+    padding-left: 2px;
+    height: 100%;
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    
+    /* Основное содержание */
+
+body {
+    font-family: 'Calibri', sans-serif;
+    background: #ffa256;
+    background: -webkit-linear-gradient(#ffa256, #753280);
+    background:    -moz-linear-gradient(#ffa256, #753280);
+    background:         linear-gradient(#ffa256, #753280);
+    background-attachment: fixed;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbar {
+   position: fixed;
+   z-index: 1;
+   width: 100%;
+   top: 0px;
+   right: 0px;
+   left: 0px;
+   height: 50px;
+   color: white;
+   background-color: #ffa256;
+}
+
+
+.navbar-brand {
+    color: white;
+}
+
+.form-control {
+    background-color: #ffeed4;
+}
+
+.category-title {
+    font-style: normal;
+    margin: 15px 0 0 20px;
+    color: white;
+}
+
+.category-title-first {
+    margin-top: 60px;
+}
+
+.category-block {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+.footer {
+    margin: 0 0 10px 20px;
+}
+
+/* Внешний вид карточек */
+
+.card {
+    margin: 10px 5px 0 5px;
+}
+
+.card-title {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+.btn-secondary {
+    background-color: orange;
+    color: black;
+}
+
+.btn-books {
+    background: rgb(255, 142, 76);
+}
+
+.btn-materials {
+    background: rgb(252, 81, 109);
+}
+
+.btn-social {
+    background: violet;
+}
+
+.btn-end {
+    background-color: white;
+}
+
+/* Содержание карточек */
+
+.modal-content {
+    color: black;
+}
+
+.modal-title {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.card-inner-block {
+    margin-bottom: 30px;
+}
+
+.card-inner-title {
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 20px 0 3px 0;
+}
+
+.card-inner-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+.card-inner-link {
+    color: rgb(71, 71, 71);
+}
+
+.card-inner-link-books {
+    color: rgb(71, 71, 71);
+}
+
+.card-inner-link-social {
+    color: rgb(71, 71, 71);
+}
+
+.card-inner-list {
+    padding: 0 0 0 15px;
+}
+
+.card-inner-item {
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+
+.card-inner-item-books {
+    color: rgb(71, 71, 71);
+}
+
+.img-fluid {
+    padding-top: 2.5px;
+    padding-left: 2px;
+    height: 100%;
+    width: 100%;
+}
+}
